@@ -1,0 +1,11 @@
+body {
+  width: 100vw; }
+
+table, th, td {
+  border: 1px solid #989292;
+  border-collapse: collapse; }
+
+.buttons {
+  margin: 5vh 0; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxhQUFZLEVBQ2Y7O0FBRUQ7RUFDSSwwQkFBb0M7RUFDcEMsMEJBQXlCLEVBQzVCOztBQUVEO0VBQ0ksY0FBYSxFQUNoQiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcbiAgICB3aWR0aDogMTAwdnc7XG59XG5cbnRhYmxlLCB0aCwgdGQge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHJnYigxNTIsIDE0NiwgMTQ2KTtcbiAgICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xufVxuXG4uYnV0dG9ucyB7XG4gICAgbWFyZ2luOiA1dmggMDtcbn1cbiAgIl19 */

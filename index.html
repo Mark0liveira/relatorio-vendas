@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de vendas</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Style project-->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="container center-block">
+        <div class="row buttons">
+            <button id="first" type="button" class="btn btn-success col-xs-12 col-md-4">
+                Primeiro
+            </button>
+            <button id="second" type="button" class="btn btn-primary col-xs-12 col-md-4">
+                Segundo
+            </button>
+            <button id="third" type="button" class="btn btn-warning col-xs-12 col-md-4">
+                Terceiro
+            </button>
+        </div>
+
+        <div class="hidden-xs">
+            <div class="panel panel-default" style="display: none;">
+                <!-- Tabela com relatório -->
+                <div class="panel-heading">RELATÓRIO DE VENDAS - 2020</div>
+            
+                <table class="table table-striped" style="width:100%;">
+                    <tr>
+                        <th>Filial</th>
+                        <th>Mês</th>
+                        <th>Total</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--Script Jquery-->
+    <script src="src/assets/Jquery/jquery-3.2.1.min.js"></script>
+    <!--Script project-->
+    <script src="src/js/script.js"></script>
+</body>
+</html>
